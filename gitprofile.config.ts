@@ -6,12 +6,12 @@ const CONFIG = {
   base: '/', 
   projects: {
     github: {
-      display: true,
+      display: true, 
       header: 'Proyectos de GitHub',
-      mode: 'automatic',
+      mode: 'automatic', 
       automatic: {
-        sortBy: 'updated', 
-        limit: 8,
+        sortBy: 'stars', 
+        limit: 8, 
         exclude: {
           forks: true, 
           projects: [], 
@@ -36,8 +36,8 @@ const CONFIG = {
     },
   },
   seo: { 
-    title: 'Portfolio de Nico | Backend & Data', 
-    description: 'Estudiante de Programación en UTN', 
+    title: 'Portfolio de Nicolas Zabala', 
+    description: 'Estudiante de Programación en UTN FRGP', 
     imageURL: '' 
   },
   social: {
@@ -67,16 +67,8 @@ const CONFIG = {
     'Git',
     'Analisis de Datos',
   ],
-  experiences: [
-    {
-      company: 'Estudio Figueras',
-      position: 'Analista Administrativo',
-      from: 'Marzo 2024',
-      to: 'Presente',
-      companyLink: '',
-    },
-  ],
-  certifications: [], // Obligatorio
+  experiences: [],
+  certifications: [],
   educations: [
     {
       institution: 'UTN FRGP',
@@ -85,10 +77,10 @@ const CONFIG = {
       to: '2026',
     },
   ],
-  publications: [], // Obligatorio
+  publications: [],
   blog: {
-    source: '', 
-    username: '', 
+    source: '',
+    username: '',
     limit: 0,
   },
   googleAnalytics: {
@@ -103,13 +95,11 @@ const CONFIG = {
     disableSwitch: false,
     respectPrefersColorScheme: true,
     displayAvatarRing: true,
-    themes: ['business', 'corporate', 'dracula', 'nord', 'dark', 'light'],
+    themes: [
+      'light', 'dark', 'corporate', 'business', 'dracula', 'nord'
+    ],
   },
-  footer: `Hecho con GitProfile`,
-  enablePWA: true,
-};
-
-export default CONFIG;
+  footer: `Hecho con ❤️`,
   enablePWA: true,
 };
 
