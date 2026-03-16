@@ -5,34 +5,22 @@ const CONFIG = {
   },
   base: '/', 
   projects: {
-    github: {
+      github: {
       display: true, 
-      header: 'Proyectos de GitHub',
-      mode: 'automatic', 
-      automatic: {
-        sortBy: 'stars', 
-        limit: 8, 
-        exclude: {
-          forks: true, 
-          projects: [], 
-        },
-      },
+      header: 'Mis Proyectos (Desarrollo & Data)',
+      mode: 'manual', 
       manual: {
-        projects: [], 
+        projects: [
+          'nicovyv/TPC-Negocio',
+          'benitex-dev/TPAPIs_equipo11-B',
+          'nicovyv/analisis-litio',
+          'nicovyv/BDII-TPI-ST'
+        ], 
       },
     },
     external: {
-      header: 'Otros Proyectos',
-      projects: [
-        {
-          title: 'Análisis de Mercado Global de Litio',
-          description:
-            'Proyecto de ingeniería y análisis de datos sobre el mercado global de extracción de litio.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/data-analysis-concept-illustration_114360-801.jpg',
-          link: 'https://github.com/nicovyv/analisis-litio',
-        },
-      ],
+      header: '', 
+      projects: [], 
     },
   },
   seo: { 
@@ -64,8 +52,6 @@ const CONFIG = {
     'SQL Server',
     '.NET',
     'Python',
-    'Git',
-    'Analisis de Datos',
   ],
   experiences: [],
   certifications: [],
@@ -92,14 +78,14 @@ const CONFIG = {
   },
   themeConfig: {
     defaultTheme: 'business',
-    disableSwitch: false,
-    respectPrefersColorScheme: true,
+    disableSwitch: true,
+    respectPrefersColorScheme: false,
     displayAvatarRing: true,
     themes: [
       'light', 'dark', 'corporate', 'business', 'dracula', 'nord'
     ],
   },
-  footer: `Hecho con ❤️`,
+  footer: `Hecho con <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a>`,
   enablePWA: true,
 };
 
