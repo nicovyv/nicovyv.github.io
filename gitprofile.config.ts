@@ -14,7 +14,8 @@ const CONFIG = {
           'nicovyv/TPC-Negocio',
           'benitex-dev/TPAPIs_equipo11-B',
           'nicovyv/analisis-litio',
-          'nicovyv/BDII-TPI-ST'
+          'nicovyv/BDII-TPI-ST',
+          'nicovyv/latam-climate-etl-pipeline'
         ], 
       },
     },
